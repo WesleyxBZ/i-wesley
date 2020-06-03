@@ -1,0 +1,31 @@
+<div style="height: 40vh" id="galeria"></div>
+
+<section class="my-5">
+
+  <div class="row">
+    <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
+      <h1 class="text-white text-center">Galeria</h1>
+    </div>
+  </div>
+
+  <div class="container d-none-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+    <div class="box" *ngFor="let image of images">
+      <img src="{{image.path}}" alt="{{image.title}}">
+      <span><a href="{{image.spotifyMusic}}" target="_blank" rel="noopener">♫ {{image.title}}</a></span>
+    </div>
+  </div>
+
+  <div class="container text-center d-visible">
+    <div class="row">
+      <div class="col-12 mb-4" *ngFor="let image of images">
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <img src="{{image.path}}" class="img-fluid" width="500" alt="{{image.title}}">
+          <span><a href="{{image.spotifyMusic}}" rel="noopener">♫ {{image.title}}</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<div class="h-after-photos"></div>

@@ -1,0 +1,15 @@
+.container-fluid {
+  height: 30vh;
+  background-color: rgba(231, 231, 231, 0.28);
+}
+
+img {
+  width: 56px;
+  padding: 8px;
+  margin: 0 10px 0 10px;
+}
+
+a:hover > img {
+  transition: all .2s ease-in-out;
+  transform: scale(1.3);
+}

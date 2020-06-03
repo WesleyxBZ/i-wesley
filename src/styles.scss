@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --white: #FAFBFB;body {
+  background-color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+}
+  --gray: #273342;
+  --blue: #3F5AF2;
+  --magenta: #D73FF2;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--gray);
+}
+
+@media (max-width: 992px) {
+  .d-none-lg {
+    display: none !important;
+  }
+}

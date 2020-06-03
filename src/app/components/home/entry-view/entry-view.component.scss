@@ -1,0 +1,42 @@
+.btn {
+  background-image: linear-gradient(to bottom right, var(--blue), var(--magenta));
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 0.3rem;
+  box-shadow: 0 5px 20px 0 rgba(30, 31, 68, 0.3)
+}
+
+.btn:hover {
+  box-shadow: 0 5px 20px 0 #1e1f4480;
+}
+
+@media (max-width: 992px) {
+  h1, p {
+    color: var(--white);
+    text-align: center;
+  }
+  p {
+    margin: auto;
+  }
+  .btn {
+    margin-top: 3vh;
+    color: var(--white);
+    background-image: none;
+    border: 2px solid var(--white);
+  }
+  .btn:hover {
+    margin-top: 3vh;
+    color: var(--blue);
+    background-color: var(--white);
+    border-color: transparent;
+  }
+}
+
+a {
+  color: var(--gray);
+}
+
+.d-grid {
+  height: 90vh;
+  display: grid;
+}

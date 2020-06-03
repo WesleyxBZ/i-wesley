@@ -1,0 +1,63 @@
+<header>
+
+  <div class="overlay" id="menu"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand text-dark font-weight-bold my-auto" href="">
+        <img src="./assets/img/logo.png" alt="icon menu" width="32">
+      </a>
+      <button class="navbar-toggler align-self-start" type="button" id="sidebarCollapse">
+        <img src="./assets/icon/menu.svg" alt="icon menu">
+      </button>
+      <div class="collapse navbar-collapse justify-content-lg-end">
+        <ul class="navbar-nav align-self-stretch">
+          <li class="nav-item active hvr-underline-from-center ml-3" *ngFor="let item of itensMenu">
+            <a class="nav-link border-0 rounded scroll" href="{{item.link}}">{{item.title}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar mobile -->
+  <nav class="wrapper" id="sidebar">
+    <div class="container">
+
+      <div class="row mt-2">
+        <div class="col text-right">
+          <button class="navbar-toggler pull-right overlay" type="button">
+            <img src="./assets/icon/close.svg" alt="icon close">
+          </button>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center" style="height: 75vh">
+        <div class="align-self-center">
+          <div class="row">
+            <ng-container *ngFor="let item of itensMenu">
+              <div class="col-12 my-4 text-center">
+                <a [href]="item.link" class="display-4 scroll overlay">{{item.title}}</a><br>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.instagram.com/wesleyxbz" target="_blank" rel="noopener">
+            <img src="./assets/icon/instagram-g.svg" class="align-text-top mr-2" width="35" alt="icon instagram">
+          </a>
+          <span class="mx-4"></span>
+          <a href="https://github.com/WesleyxBZ" target="_blank" rel="noopener">
+            <img src="./assets/icon/github-g.svg" class="align-text-top mr-2" width="35" alt="icon github">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+</header>
