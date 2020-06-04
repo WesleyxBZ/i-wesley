@@ -22,7 +22,7 @@ jobs:
         node-version: 12.14.1
         
     - name: Build
-      run: npm i && npx ng b --prod --base-href=/i-wesley/
+      run: npm i && npx ng b --prod --base-href=https://wesleyxbz.com/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
