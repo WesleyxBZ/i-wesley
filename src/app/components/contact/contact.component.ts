@@ -19,9 +19,9 @@ export class ContactComponent implements OnInit {
       alt: 'github'
     },
     {
-      link: 'https://twitter.com/wesley_bz',
-      path: './assets/icon/twitter.svg',
-      alt: 'twitter'
+      link: 'https://www.linkedin.com/in/wesley-belizario-824127162/',
+      path: './assets/icon/linkedIn.svg',
+      alt: 'linkedIn'
     },
     {
       link: 'https://steamcommunity.com/id/wesleyxbz',
