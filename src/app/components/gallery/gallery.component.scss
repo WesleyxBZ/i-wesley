@@ -1,40 +1,48 @@
-@media (max-width: 992px) {
-  h1, p {
-    color: var(--white);
-  }
-  .h-after-photos {
-    height: 140vh;
-  }
+.container-box {
+  width: 100%;
+  padding: 4% 2%;
+  height: 400px;
 }
 
-@media (max-width: 480px) {
-  .h-after-photos {
-    height: 85vh;
+@media (max-width: 992px) {
+
+  h1, p {
+    color: var(--light);
   }
+
+  .container-box {
+    display: inline-table;
+  }
+
+  .box {
+    margin-bottom: 4vh;
+  }
+
 }
 
 @media (min-width: 992px) {
-  .d-visible {
-    display: none !important;
-  }
-  .h-after-photos {
-    height: 20vh;
-  }
-}
 
-.container {
-  display: flex;
-  width: 100%;
-  padding: 4% 2%;
-  box-sizing: border-box;
-  height: 400px;
+  .container-box {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .container {
+    margin-top: 15vh;
+  }
+
+  section {
+    height: 80vh;
+  }
+
 }
 
 .box {
   flex: 1;
   overflow: hidden;
   transition: .5s;
-  margin: 0 2%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
   line-height: 0;
   border-radius: 30px;
@@ -42,7 +50,7 @@
 
 .box > img {
   width: 100%;
-  height: calc(100% - 5vh);
+  height: calc(100% - 4vh);
   object-fit: cover;
   transition: .5s;
 }
@@ -55,9 +63,8 @@ img {
   font-size: 2vh;
   display: block;
   text-align: center;
-  height: 5vh;
   line-height: 2.2;
-  background-color: var(--white);
+  background-color: var(--light);
 }
 
 .box:hover {
@@ -65,5 +72,5 @@ img {
 }
 
 a {
-  color: var(--gray);
+  color: var(--gray-dark);
 }

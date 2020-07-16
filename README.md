@@ -9,6 +9,6 @@ Quer dar uma olhada? [Clique aqui](https://wesleyxbz.github.io/i-wesley/)
 
 ### :art: Protótipo
 
-Está página foi prototipada com a ferramenta [Figma](figma.com), para conferir o protótipo
-acesse [este link](https://www.figma.com/file/cHrkwmw6m1uTV7IBjnF93f/I-Wesley?node-id=0%3A1).
+Está página foi prototipada com a ferramenta [Figma](https://figma.com), para conferir o protótipo
+acesse [este link](https://www.figma.com/file/Oat3yToiFyQqc5gBWnmceh/I-Wesley?node-id=0%3A1).
 

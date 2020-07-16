@@ -1,19 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-  --white: #FAFBFB;body {
-  background-color: var(--white);
+  --blue: rgb(0, 142, 255);
+  --cyan: rgb(106, 199, 205);
+  --light: rgb(249, 250, 250);
+  --gray-dark: rgb(70, 70, 70);
+}
+
+body {
+  background-color: var(--light);
   font-family: 'Montserrat', sans-serif;
 }
-  --gray: #273342;
-  --blue: #3F5AF2;
-  --magenta: #D73FF2;
-}
-
-
 
 h1, h2, h3, h4, h5, h6, p {
-  color: var(--gray);
+  color: var(--gray-dark);
 }
 
 @media (max-width: 992px) {

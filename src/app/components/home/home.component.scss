@@ -1,7 +1,17 @@
-.gradient-image {
-  background-image: url('src/assets/img/bg_gradient.svg');
-  background-repeat: no-repeat;
-  background-position: right top;
-  height: 110vh;
-  background-size: cover;
+@media (max-width: 992px) {
+  .gradient-image {
+    background-image: url('src/assets/img/gradient_rectangle.svg');
+    height: 100vh;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .gradient-image {
+    background-image: url('src/assets/img/gradient_wave.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 110vh;
+    background-size: cover;
+  }
 }
