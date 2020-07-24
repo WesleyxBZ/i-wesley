@@ -27,8 +27,11 @@
     border: 2px solid var(--light);
   }
   .btn:hover {
-    color: var(--blue);
+    color: rgb(27 156 220);
     background-color: var(--light);
+  }
+  .btn:focus, .btn.focus {
+    box-shadow: none;
   }
 }
 
