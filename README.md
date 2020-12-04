@@ -1,11 +1,11 @@
 # I Wesley
 Bem-vindo a minha página pessoal.
-
+<br><br>
 
 # :page_facing_up: Sobre
 
 Está página tem como objetivo mostrar um pouco sobre mim  e compartilhar meus meios de comunicação.
-
+<br><br>
 
 # :art: Protótipo
 
@@ -17,7 +17,7 @@ Fique a vontade para olhar o site [clicando aqui](https://wesleyxbz.github.io/i-
 <p align="center">
   <img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.png">
 </p>
-
+<br><br>
 
 # :construction_worker: Como executar
 
