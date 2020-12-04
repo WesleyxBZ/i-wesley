@@ -14,7 +14,7 @@ acesse [clique aqui](https://www.figma.com/file/Oat3yToiFyQqc5gBWnmceh/I-Wesley?
 Fique a vontade para olhar o site [clicando aqui](https://wesleyxbz.github.io/i-wesley/).
 
 <p align="center">
-  <img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.svg">
+  <img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.png">
 </p>
 
 # :construction_worker: Como executar
