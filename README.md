@@ -1,14 +1,36 @@
 # I Wesley
 
-### :page_facing_up: Sobre
+# :page_facing_up: Sobre
+
 Bem-vindo a minha página pessoal.
 
 Está página tem como objetivo mostrar um pouco sobre mim  e compartilhar meus meios de comunicação.
 
-Quer dar uma olhada? [Clique aqui](https://wesleyxbz.github.io/i-wesley/)
-
-### :art: Protótipo
+# :art: Protótipo
 
 Está página foi prototipada com a ferramenta [Figma](https://figma.com), para conferir o protótipo
-acesse [este link](https://www.figma.com/file/Oat3yToiFyQqc5gBWnmceh/I-Wesley?node-id=0%3A1).
+acesse [clique aqui](https://www.figma.com/file/Oat3yToiFyQqc5gBWnmceh/I-Wesley?node-id=0%3A1).
 
+Fique a vontade para olhar o site [clicando aqui](https://wesleyxbz.github.io/i-wesley/).
+
+<p align="center">
+  <img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.svg">
+</p>
+
+# :construction_worker: Como executar
+
+```bash
+# Clone este repositório 
+$ git clone git@github.com:WesleyxBZ/i-wesley.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd i-wesley
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ ng serve
+
+# O servidor inciará na porta:4200 - acesse http://localhost:4200 
+```
