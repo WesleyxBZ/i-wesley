@@ -1,0 +1,18 @@
+.gradient-image {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+  .gradient-image {
+    background: linear-gradient(110.12deg, #008ee1 1.05%, #6ac7cd 100.72%);
+  }
+}
+
+@media (min-width: 992px) {
+  .gradient-image {
+    background-image: url("./../../images/gradient-wave.svg");
+    background-position: right top;
+  }
+}

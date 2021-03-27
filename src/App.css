@@ -1,0 +1,7 @@
+.bg-wave {
+  background-image: url("./images/wave-vector.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}

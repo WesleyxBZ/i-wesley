@@ -1,0 +1,21 @@
+.startcontent {
+  height: 90vh;
+  display: grid;
+}
+
+@media (max-width: 992px) {
+  .startcontent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .startcontent .display {
+    color: var(--neutral-05) !important;
+  }
+
+  .startcontent p {
+    color: var(--neutral-05) !important;
+  }
+}

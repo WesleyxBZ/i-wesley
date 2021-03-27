@@ -1,0 +1,110 @@
+:root {
+  --primary-dark: #0880c9;
+  --primary-medium: #008eff;
+  --primary-light: #00a1ff;
+
+  --secondary: #6ac7cd;
+
+  --neutral-80: #253b47;
+  --neutral-40: #677b87;
+  --neutral-05: #f7f7f7;
+}
+
+body {
+  background-color: var(--neutral-05);
+  font-family: "Montserrat", sans-serif;
+}
+
+.display {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: -1.5px;
+  color: var(--neutral-80);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--neutral-80);
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--neutral-40);
+}
+
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+}
+
+.link-dark {
+  color: var(--neutral-80);
+}
+
+.link-light {
+  color: var(--neutral-05);
+}
+
+.link:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  height: 2px;
+  transition-property: right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.link-dark:before {
+  background: var(--neutral-80);
+}
+
+.link-light:before {
+  background: var(--neutral-05);
+}
+
+.link:hover:before,
+.link:focus:before,
+.link:active:before {
+  left: 0;
+  right: 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.text-dark {
+  color: var(--neutral-80);
+}
+
+.text-neutral {
+  color: var(--neutral-40);
+}
+
+.text-light {
+  color: var(--neutral-05);
+}
+
+@media (max-width: 992px) {
+  .hide-in-mobile {
+    display: none !important;
+  }
+}

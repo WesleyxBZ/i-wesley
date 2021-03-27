@@ -1,0 +1,9 @@
+.contact {
+  background: rgba(247, 247, 247, 0.25);
+  height: 35vh;
+}
+
+a:hover > .img-zoom {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.3);
+}

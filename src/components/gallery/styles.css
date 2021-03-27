@@ -1,0 +1,25 @@
+.gallery-blankspace {
+  height: 35vh;
+  display: grid;
+}
+
+.container-box {
+  width: 100%;
+  padding: 4% 2%;
+  height: 400px;
+}
+
+@media (max-width: 992px) {
+  .container-box {
+    display: inline-table;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-box {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+  }
+}
