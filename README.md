@@ -1,6 +1,6 @@
 # I Wesley
 
-<img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.svg">
+<img alt="Prototipo" src="https://github.com/WesleyxBZ/i-wesley/blob/master/.github/prototipo.png">
 
 ## :page_facing_up: Sobre
 
