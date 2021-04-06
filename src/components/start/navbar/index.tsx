@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import "./styles.css";
-import logo from "../../../images/logo.svg";
-import iconMenu from "../../../images/icon-menu.svg";
-import iconClose from "../../../images/icon-close.svg";
+import iconBrand from "../../../images/icon/brand.svg";
+import iconMenu from "../../../images/icon/menu.svg";
+import iconClose from "../../../images/icon/close.svg";
 
 interface Item {
   title: string;
@@ -47,9 +47,14 @@ const Navbar = () => {
 
       {/* Navbar desktop */}
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <div className="container">
+        <div className="container mt-2">
           <a href="/">
-            <img className="navbar-logo" src={logo} alt="Logo letra W" />
+            <img
+              className="navbar-logo"
+              height="28"
+              src={iconBrand}
+              alt="Logo letra W"
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -59,6 +64,7 @@ const Navbar = () => {
             <img
               className="align-baseline d-flex"
               src={iconMenu}
+              height="24"
               alt="ícone de menu"
             />
           </button>
@@ -67,7 +73,7 @@ const Navbar = () => {
               {itemsMenu.map((item: Item, index: number) => {
                 return (
                   <li key={index}>
-                    <a className="link link-light ms-5" href={item.link}>
+                    <a className="link text-light ms-5" href={item.link}>
                       {item.title}
                     </a>
                   </li>

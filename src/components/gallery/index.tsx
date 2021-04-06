@@ -45,7 +45,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="container-box">
+        <div className="container-box mt-3">
           {images.map((image: Image, index: number) => {
             return (
               <Card

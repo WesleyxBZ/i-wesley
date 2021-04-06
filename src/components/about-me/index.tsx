@@ -13,6 +13,7 @@ const AboutMe = () => {
               className="img-fluid mt-4"
               src={walkInTheCity}
               alt="imagem caminhando na cidade"
+              height="338"
             />
           </div>
           <div className="col-md-12 col-lg-6">

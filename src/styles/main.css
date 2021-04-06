@@ -6,7 +6,7 @@
   --secondary: #6ac7cd;
 
   --neutral-80: #253b47;
-  --neutral-40: #677b87;
+  --neutral-60: #4E5D66;
   --neutral-05: #f7f7f7;
 }
 
@@ -29,6 +29,7 @@ h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
+  letter-spacing: 0px;
   color: var(--neutral-80);
 }
 
@@ -38,7 +39,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0px;
-  color: var(--neutral-40);
+  color: var(--neutral-60);
 }
 
 .link {
@@ -53,14 +54,6 @@ p {
   overflow: hidden;
 }
 
-.link-dark {
-  color: var(--neutral-80);
-}
-
-.link-light {
-  color: var(--neutral-05);
-}
-
 .link:before {
   content: "";
   position: absolute;
@@ -72,14 +65,6 @@ p {
   transition-property: right;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
-}
-
-.link-dark:before {
-  background: var(--neutral-80);
-}
-
-.link-light:before {
-  background: var(--neutral-05);
 }
 
 .link:hover:before,
@@ -96,11 +81,15 @@ p {
 }
 
 .text-neutral {
-  color: var(--neutral-40);
+  color: var(--neutral-60);
 }
 
 .text-light {
   color: var(--neutral-05);
+}
+
+.text-light:before {
+  background: var(--neutral-05);
 }
 
 @media (max-width: 992px) {
