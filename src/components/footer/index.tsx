@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 py-2 text-center">
-            <p className="mb-0 text-light font-weight-lighter">
+            <p className="mb-0 text-light">
               © Copyright {year} Wesley Belizario
             </p>
           </div>

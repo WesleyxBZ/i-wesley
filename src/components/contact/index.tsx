@@ -4,6 +4,7 @@ import "./styles.css";
 import iconLinkedin from "./../../images/icon/linkedin.svg";
 import iconInstagram from "./../../images/icon/instagram.svg";
 import iconGithub from "./../../images/icon/github.svg";
+import iconDribble from "./../../images/icon/dribble.svg";
 
 interface Social {
   title: string;
@@ -17,19 +18,25 @@ const Contact = () => {
     {
       title: "LinkedIn",
       src: iconLinkedin,
-      alt: "",
+      alt: "ícone linkedin",
       href: "https://www.linkedin.com/in/wesley-belizario-824127162",
+    },
+    {
+      title: "Dribble",
+      src: iconDribble,
+      alt: "ícone dribble",
+      href: "https://dribbble.com/WesleyxBZ",
     },
     {
       title: "GitHub",
       src: iconGithub,
-      alt: "",
+      alt: "ícone github",
       href: "https://github.com/WesleyxBZ",
     },
     {
       title: "Instagram",
       src: iconInstagram,
-      alt: "",
+      alt: "ícone instagram",
       href: "https://www.instagram.com/wesleyxbz",
     },
   ]);

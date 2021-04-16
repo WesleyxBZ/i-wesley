@@ -22,15 +22,13 @@ const AboutMe = () => {
               💻 <strong>{"</>"}</strong> 🎵 🌈
             </p>
             <p className="mt-5">
-              Nasci na cidade de Santa Maria/RS, chamada de "o coração do RS",
-              onde resido atualmente. Sou graduando em Sistemas para Internet
-              pela Universidade Federal de Santa Maria (UFSM).
+              Nasci e resido atualmente na cidade de Santa Maria/RS. Sou
+              graduando em Sistemas para Internet pela Universidade Federal de
+              Santa Maria (UFSM).
               <br />
-              Sou fascinado por novas tecnologias e amo música. Estou em
-              constante aprendizado nesse mundo enorme, sou apenas um gafanhoto
-              saindo para o mundo em um mar de estrelas. O que o futuro me
-              reserva? Não tenho certeza, gosto de viver e aproveitar o
-              presente.
+              Sou fascinado por novas tecnologias, apaixonado por música e gosto
+              de ler e assitir filmes LGBT+.
+              <br />
               <br />
               <i>"Pés no chão e olhar no horizonte!"</i>
             </p>
