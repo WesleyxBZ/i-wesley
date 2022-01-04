@@ -4,7 +4,7 @@ import "./styles.css";
 import iconBrand from "../../../images/icon/brand.svg";
 import iconMenu from "../../../images/icon/menu.svg";
 import iconClose from "../../../images/icon/close.svg";
-import Button from "../button";
+import Button from "../../button";
 
 interface Item {
   title: string;
@@ -73,10 +73,7 @@ const Navbar = () => {
             <ul className="navbar-nav">
               {itemsMenu.map((item: Item, index: number) => {
                 return (
-                  <li key={index}>
-                    {/* <a className="button text-light" href={item.link}>
-                      {item.title}
-                    </a> */}
+                  <li key={index} className="ms-5">            
                     <Button type="button-nav" title={item.title} link={item.link} />
                   </li>
                 );
@@ -103,6 +100,7 @@ const Navbar = () => {
             </button>
           </div>
         </nav>
+        {/* Menu */}
         <div className="container sidebar-content">
           <div className="d-flex justify-content-center">
             <div className="align-self-center">

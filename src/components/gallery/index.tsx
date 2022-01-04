@@ -34,7 +34,7 @@ const Gallery = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="text-light text-center">Galeria</h1>
+              <h1 className="heading text-light text-center">Galeria</h1>
             </div>
           </div>
         </div>

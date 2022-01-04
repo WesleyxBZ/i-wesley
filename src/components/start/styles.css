@@ -8,6 +8,17 @@
   .gradient-image {
     background: linear-gradient(110.12deg, #008ee1 1.05%, #6ac7cd 100.72%);
   }
+
+  .button-primary {
+    color: var(--primary-dark);
+    background-color: var(--neutral-05);
+  }
+  
+  .button-primary:hover {
+    color: var(--primary-dark);
+    background-color: var(--neutral-05);
+    opacity: 0.9;
+  }
 }
 
 @media (min-width: 992px) {

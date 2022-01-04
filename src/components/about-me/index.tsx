@@ -5,7 +5,7 @@ import walkInTheCity from "./../../images/walk-in-the-city.svg";
 
 const AboutMe = () => {
   return (
-    <section id="sobre-mim" className="container aboutme">
+    <section id="sobre-mim" className="container about-me">
       <div className="align-self-center">
         <div className="row">
           <div className="col-md-12 col-lg-6 hide-in-mobile my-3">
@@ -17,7 +17,7 @@ const AboutMe = () => {
             />
           </div>
           <div className="col-md-12 col-lg-6">
-            <h1>Sobre mim</h1>
+            <h1 className="heading">Sobre mim</h1>
             <p className="mt-4">
               Nasci e resido atualmente na cidade de Santa Maria/RS. Sou
               graduando em Sistemas para Internet pela Universidade Federal de

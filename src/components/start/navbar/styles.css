@@ -37,3 +37,7 @@ button:focus {
   text-decoration: none;
   color: var(--neutral-80);
 }
+
+.sidebar-link:hover {
+  color: var(--primary-medium);
+}
