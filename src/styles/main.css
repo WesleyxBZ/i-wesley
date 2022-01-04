@@ -18,12 +18,14 @@ body {
 .display {
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: -1.5px;
+  font-size: 4.5rem;
+  line-height: 115%;
+  letter-spacing: -2%;
   color: var(--neutral-80);
 }
 
+
+/* DELETAR */
 h1 {
   font-style: normal;
   font-weight: 500;
@@ -33,47 +35,22 @@ h1 {
   color: var(--neutral-80);
 }
 
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: var(--neutral-80);
+}
+
 p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 175%;
   letter-spacing: 0px;
   color: var(--neutral-60);
-}
-
-.link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  position: relative;
-  overflow: hidden;
-}
-
-.link:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  height: 2px;
-  transition-property: right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-
-.link:hover:before,
-.link:focus:before,
-.link:active:before {
-  left: 0;
-  right: 0;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 
 .text-dark {

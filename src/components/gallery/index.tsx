@@ -9,28 +9,21 @@ import Card from "./card";
 interface Image {
   title: string;
   path: string;
-  spotifyLink: string;
 }
 
 const Gallery = () => {
   const [images] = useState<Image[]>([
     {
-      title: "Sem medo - Mahmundi",
+      title: "Balão de ar em um céu azul",
       path: imageOne,
-      spotifyLink:
-        "https://open.spotify.com/track/31YDFOH4f9fOhF0CGWEFds?si=mHevpPPWSv-Ikz989EH7sA",
     },
     {
-      title: "King - Years & Years",
+      title: "Paisagem com montanha ao fundo",
       path: imageTwo,
-      spotifyLink:
-        "https://open.spotify.com/track/3AeicLnm55RqcXGBKYQolM?si=-X6e11REQ-OhXjTTMv--iQ",
     },
     {
-      title: "Lights - Ellie Goulding",
+      title: "Vista da cidade em preto e branco",
       path: imageTree,
-      spotifyLink:
-        "https://open.spotify.com/track/5aTsxlQlq0vIedDWZoqMWN?si=LBUJxJRoRgiwehXtG4tfaw",
     },
   ]);
 
@@ -47,14 +40,7 @@ const Gallery = () => {
         </div>
         <div className="container-box mt-3">
           {images.map((image: Image, index: number) => {
-            return (
-              <Card
-                key={index}
-                title={image.title}
-                path={image.path}
-                spotifyLink={image.spotifyLink}
-              />
-            );
+            return <Card key={index} title={image.title} path={image.path} />;
           })}
         </div>
       </section>

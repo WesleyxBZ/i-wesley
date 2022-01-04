@@ -26,10 +26,9 @@ const StartContent = () => {
               data-aos-duration="900"
               data-aos-once="true"
             >
-              Olá, bem-vindo ao meu website. <br />
-              Sou dev front-end, UX/UI <br />
-              designer e estudante de <br />
-              Sistemas para Internet na UFSM.
+              Olá, bem-vindo! Trabalho como <br/>
+              UX/UI Designer e ocasionalemente <br/>
+              desenvolvo em front-end.
             </p>
             <div
               data-aos="fade-up"
@@ -37,7 +36,7 @@ const StartContent = () => {
               data-aos-duration="900"
               data-aos-once="true"
             >
-              <Button title="Sobre mim" link="#sobre-mim" />
+              <Button type="button-primary" title="Sobre mim" link="#sobre-mim" />
             </div>
           </div>
           <div className="col-md-12 col-lg-6 hide-in-mobile text-end">

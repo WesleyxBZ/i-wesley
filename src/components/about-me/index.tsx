@@ -18,10 +18,7 @@ const AboutMe = () => {
           </div>
           <div className="col-md-12 col-lg-6">
             <h1>Sobre mim</h1>
-            <p>
-              💻 <strong>{"</>"}</strong> 🎵 🌈
-            </p>
-            <p className="mt-5">
+            <p className="mt-4">
               Nasci e resido atualmente na cidade de Santa Maria/RS. Sou
               graduando em Sistemas para Internet pela Universidade Federal de
               Santa Maria (UFSM).

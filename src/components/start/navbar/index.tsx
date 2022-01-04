@@ -4,6 +4,7 @@ import "./styles.css";
 import iconBrand from "../../../images/icon/brand.svg";
 import iconMenu from "../../../images/icon/menu.svg";
 import iconClose from "../../../images/icon/close.svg";
+import Button from "../button";
 
 interface Item {
   title: string;
@@ -73,12 +74,13 @@ const Navbar = () => {
               {itemsMenu.map((item: Item, index: number) => {
                 return (
                   <li key={index}>
-                    <a className="link text-light ms-5" href={item.link}>
+                    {/* <a className="button text-light" href={item.link}>
                       {item.title}
-                    </a>
+                    </a> */}
+                    <Button type="button-nav" title={item.title} link={item.link} />
                   </li>
                 );
-              })}
+              })}    
             </ul>
           </div>
         </div>
@@ -108,7 +110,7 @@ const Navbar = () => {
                 {itemsMenu.map((item: Item, index: number) => {
                   return (
                     <div key={index} className="col-12 my-4 text-center">
-                      <h1>
+                      <h1 className="heading">
                         <a
                           onClick={handleSidebar}
                           href={item.link}
