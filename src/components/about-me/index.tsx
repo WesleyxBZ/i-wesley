@@ -5,26 +5,26 @@ import walkInTheCity from "./../../images/walk-in-the-city.svg";
 
 const AboutMe = () => {
   return (
-    <section id="sobre-mim" className="container about-me">
-      <div className="align-self-center">
+    <section id="about-me" className="container">
+      <div className="align-self-center mt-5">
         <div className="row">
           <div className="col-md-12 col-lg-6 hide-in-mobile my-3">
             <img
               className="img-fluid mt-4"
               src={walkInTheCity}
-              alt="imagem caminhando na cidade"
+              alt="Young walking in the city"
               height="338"
             />
           </div>
-          <div className="col-md-12 col-lg-6">
-            <h1 className="heading">Sobre mim</h1>
+          <div className="col-md-12 col-lg-6 my-auto">
+            <h1 className="heading">About me</h1>
             <p className="mt-4">
-              Nasci e resido atualmente na cidade de Santa Maria/RS. Sou
-              graduando em Sistemas para Internet pela Universidade Federal de
+              I was born and currently reside in the city of Santa Maria/RS. I
+              am graduating in Internet Systems at the Federal University of
               Santa Maria (UFSM).
               <br />
-              Sou fascinado por novas tecnologias, apaixonado por música e gosto
-              de ler e assitir filmes LGBT+.
+              I am fascinated by new technologies, passionate about music and I
+              like to read and watch LGBT+ movies.
               <br />
               <br />
               <i>"Pés no chão e olhar no horizonte!"</i>

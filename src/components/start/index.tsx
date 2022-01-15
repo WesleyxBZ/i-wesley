@@ -6,7 +6,7 @@ import "./styles.css";
 
 const Start = () => {
   return (
-    <div className="gradient-image">
+    <div id="start" className="gradient-image">
       <Navbar />
       <StartContent />
     </div>

@@ -15,16 +15,16 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
   const [itemsMenu] = useState<Item[]>([
     {
-      title: "Sobre mim",
-      link: "#sobre-mim",
+      title: "About me",
+      link: "#about-me",
     },
     {
-      title: "Galeria",
-      link: "#galeria",
+      title: "Gallery",
+      link: "#gallery",
     },
     {
-      title: "Contato",
-      link: "#contato",
+      title: "Contact",
+      link: "#contact",
     },
   ]);
 
@@ -66,7 +66,7 @@ const Navbar = () => {
               className="align-baseline d-flex"
               src={iconMenu}
               height="24"
-              alt="ícone de menu"
+              alt="Icon menu"
             />
           </button>
           <div className="collapse navbar-collapse justify-content-lg-end">

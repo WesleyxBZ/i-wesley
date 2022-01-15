@@ -26,9 +26,9 @@ const StartContent = () => {
               data-aos-duration="900"
               data-aos-once="true"
             >
-              Olá, bem-vindo! Trabalho como <br/>
-              UX/UI Designer e ocasionalemente <br/>
-              desenvolvo em front-end.
+              Hi! I'm Wesley, I work as a <br />
+              UX/UI Designer and occasionally <br />
+              develop in front-end.
             </p>
             <div
               data-aos="fade-up"
@@ -36,13 +36,17 @@ const StartContent = () => {
               data-aos-duration="900"
               data-aos-once="true"
             >
-              <Button type="button-primary" title="Sobre mim" link="#sobre-mim" />
+              <Button
+                type="button-primary"
+                title="About me"
+                link="#about-me"
+              />
             </div>
           </div>
           <div className="col-md-12 col-lg-6 hide-in-mobile text-end">
             <img
               src={officeJob}
-              alt="ilustação jovem sentado em uma mesa de computador"
+              alt="Ilustration of a young man at a computer desk"
             />
           </div>
         </div>

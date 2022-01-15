@@ -1,4 +1,10 @@
-.about-me {
-  height: 90vh;
+#about-me {
+  height: 80vh;
   display: grid;
+}
+
+@media (max-width: 992px) {
+  #about-me {
+    height: 64vh;
+  }
 }

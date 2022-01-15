@@ -42,31 +42,29 @@ const Contact = () => {
   ]);
 
   return (
-    <section id="contato">
-      <div className="d-flex justify-content-center contact">
-        <div className="align-self-center">
-          <div className="row">
-            <div className="col">
-              {socials.map((social: Social, index: number) => {
-                return (
-                  <a
-                    key={index}
-                    className="mx-4 "
-                    href={social.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    title={social.title}
-                  >
-                    <img
-                      className="img-zoom"
-                      src={social.src}
-                      alt={social.alt}
-                      height="40"
-                    />
-                  </a>
-                );
-              })}
-            </div>
+    <section id="contact" className="d-flex justify-content-center">
+      <div className="align-self-center">
+        <div className="row">
+          <div className="col">
+            {socials.map((social: Social, index: number) => {
+              return (
+                <a
+                  key={index}
+                  className="mx-4 "
+                  href={social.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  title={social.title}
+                >
+                  <img
+                    className="img-zoom"
+                    src={social.src}
+                    alt={social.alt}
+                    height="40"
+                  />
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
