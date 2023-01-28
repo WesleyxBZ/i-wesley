@@ -26,9 +26,8 @@ const StartContent = () => {
               data-aos-duration="900"
               data-aos-once="true"
             >
-              Hi! I'm Wesley, I work as a <br />
-              UX/UI Designer and occasionally <br />
-              develop in front-end.
+              Hi! I'm Wesley and I work as <br />
+              a Product Designer.
             </p>
             <div
               data-aos="fade-up"

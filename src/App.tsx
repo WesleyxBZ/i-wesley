@@ -2,7 +2,7 @@ import React from "react";
 import AboutMe from "./components/about-me";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import Gallery from "./components/gallery";
+import Cases from "./components/cases";
 import Start from "./components/start";
 
 import "./App.css";
@@ -13,7 +13,7 @@ const App = () => {
       <Start />
       <AboutMe />
       <div className="bg-wave">
-        <Gallery />
+        <Cases />
         <Contact />
         <Footer />
       </div>

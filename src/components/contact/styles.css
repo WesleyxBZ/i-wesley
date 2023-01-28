@@ -1,6 +1,6 @@
 #contact {
   background: rgba(247, 247, 247, 0.25);
-  height: 256px;
+  padding: 80px 0 80px 0;
 }
 
 a:hover > .img-zoom {

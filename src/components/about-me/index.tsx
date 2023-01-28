@@ -23,8 +23,7 @@ const AboutMe = () => {
               am graduating in Internet Systems at the Federal University of
               Santa Maria (UFSM).
               <br />
-              I am fascinated by new technologies, passionate about music and I
-              like to read and watch LGBT+ movies.
+              I am fascinated by new technologies, passionate about music and I like to read and watch movies of LGBTQIA+.
               <br />
               <br />
               <i>"Pés no chão e olhar no horizonte!"</i>
