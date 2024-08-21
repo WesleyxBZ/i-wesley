@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebb15c48.css",
-    "main.js": "/static/js/main.5136dfb8.js",
-    "static/media/2.jpg": "/static/media/2.f1923f097e6275d55362.jpg",
-    "static/media/office-job.svg": "/static/media/office-job.d5cab2f11bfeae47b6c4afdd3d67d850.svg",
-    "static/media/1.jpg": "/static/media/1.528db59e15c054bd0f40.jpg",
-    "static/media/walk-in-the-city.svg": "/static/media/walk-in-the-city.eed4ee90606f13ba8350ddc6682f0cd9.svg",
-    "static/media/3.jpg": "/static/media/3.b619e96d3530de4eb4b1.jpg",
-    "static/media/brand.svg": "/static/media/brand.249acfcfcd4c7a24693ba4732ea3e2ae.svg",
-    "static/media/dribbble.svg": "/static/media/dribbble.2e60fbda4cceb7e28e98bc349bfcb025.svg",
-    "static/media/behance.svg": "/static/media/behance.bb5d8ee94390e90fefd16e407bb18bb5.svg",
-    "index.html": "/index.html",
-    "static/media/gradient-wave.svg": "/static/media/gradient-wave.da65b41aa352d7370470.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.cbc1548f6259c01170f8d32cd2829373.svg",
-    "static/media/menu.svg": "/static/media/menu.25baf91121183987cbf899ecc5e5141b.svg",
-    "static/media/wave-vector.svg": "/static/media/wave-vector.f66d08f727f82c46134f.svg",
-    "static/media/file.svg": "/static/media/file.999b907df9084ab0b176cff227178882.svg",
-    "static/media/close.svg": "/static/media/close.51b5ef55ab35d12491a2ee74cb507e25.svg",
-    "main.ebb15c48.css.map": "/static/css/main.ebb15c48.css.map",
-    "main.5136dfb8.js.map": "/static/js/main.5136dfb8.js.map"
+    "main.css": "/i-wesley/static/css/main.502fd6b8.css",
+    "main.js": "/i-wesley/static/js/main.948b4f4b.js",
+    "static/media/2.jpg": "/i-wesley/static/media/2.f1923f097e6275d55362.jpg",
+    "static/media/office-job.svg": "/i-wesley/static/media/office-job.d5cab2f11bfeae47b6c4afdd3d67d850.svg",
+    "static/media/1.jpg": "/i-wesley/static/media/1.528db59e15c054bd0f40.jpg",
+    "static/media/walk-in-the-city.svg": "/i-wesley/static/media/walk-in-the-city.eed4ee90606f13ba8350ddc6682f0cd9.svg",
+    "static/media/3.jpg": "/i-wesley/static/media/3.b619e96d3530de4eb4b1.jpg",
+    "static/media/brand.svg": "/i-wesley/static/media/brand.249acfcfcd4c7a24693ba4732ea3e2ae.svg",
+    "static/media/dribbble.svg": "/i-wesley/static/media/dribbble.2e60fbda4cceb7e28e98bc349bfcb025.svg",
+    "static/media/behance.svg": "/i-wesley/static/media/behance.bb5d8ee94390e90fefd16e407bb18bb5.svg",
+    "static/media/gradient-wave.svg": "/i-wesley/static/media/gradient-wave.da65b41aa352d7370470.svg",
+    "index.html": "/i-wesley/index.html",
+    "static/media/linkedin.svg": "/i-wesley/static/media/linkedin.cbc1548f6259c01170f8d32cd2829373.svg",
+    "static/media/menu.svg": "/i-wesley/static/media/menu.25baf91121183987cbf899ecc5e5141b.svg",
+    "static/media/wave-vector.svg": "/i-wesley/static/media/wave-vector.f66d08f727f82c46134f.svg",
+    "static/media/file.svg": "/i-wesley/static/media/file.999b907df9084ab0b176cff227178882.svg",
+    "static/media/close.svg": "/i-wesley/static/media/close.51b5ef55ab35d12491a2ee74cb507e25.svg",
+    "main.502fd6b8.css.map": "/i-wesley/static/css/main.502fd6b8.css.map",
+    "main.948b4f4b.js.map": "/i-wesley/static/js/main.948b4f4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebb15c48.css",
-    "static/js/main.5136dfb8.js"
+    "static/css/main.502fd6b8.css",
+    "static/js/main.948b4f4b.js"
   ]
 }
