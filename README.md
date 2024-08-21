@@ -7,10 +7,9 @@
 Bem-vindo a minha website.
 Este website tem como objetivo mostrar um pouco sobre mim e compartilhar meus meios de comunicação.
 
-## :art: Protótipo
+## :art: Teste o website
 
-Confira o protótipo feito no Figma [clicando aqui](https://www.figma.com/file/vN4AnQX9W8haLsWIFFnslV/I-Wesley-2.0?node-id=0%3A1).
-Fique a vontade para olhar o website [clicando aqui](https://wesleyxbz.com).
+Fique a vontade para [navegar pelo website](https://wesleyxbz.github.io/i-wesley/).
 
 ## :construction_worker: Como executar esta aplicação
 
